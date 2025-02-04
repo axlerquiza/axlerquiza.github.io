@@ -59,6 +59,11 @@ li {
     margin-top: 5px
 }
 
+.no-underline-space {
+    text-decoration: underline;
+    text-decoration-skip-ink: auto;
+}
+
 ::selection {
     background-color: #fcfbf6;
     color: #85a5bb;
