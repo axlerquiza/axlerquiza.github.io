@@ -1,2 +1,2 @@
 # portfolio
-simple personal minimalistic portfolio
+simple, personal and minimalistic
