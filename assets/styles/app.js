@@ -13,3 +13,9 @@ function otherLinks() {
 document.getElementById('contact-link').addEventListener('click', function() {
     window.location.href = 'mailto:' + 'ajberquiza' + '@' + 'gmail.com';
 });
+
+document.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', function() {
+        this.blur();
+    });
+});
