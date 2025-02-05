@@ -59,6 +59,12 @@ li {
     margin-top: 5px;
 }
 
+.bax img {
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+}
+
 .socials {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -108,4 +114,10 @@ li {
 
 ::-webkit-scrollbar-thumb {
     background: var(--main-color);
+}
+
+@media (max-width: 768px) {
+    .bax img {
+        max-width: 80%;
+    }
 }
