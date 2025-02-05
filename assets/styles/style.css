@@ -7,7 +7,7 @@ html {
     display: block;
     font-size: 18px;
     letter-spacing: 1.5px;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
     padding: 0;
     margin: 0 auto 60px;
     width: 90vw;
-    max-width: 650px
+    max-width: 650px;
 }
 
 hr {
@@ -30,13 +30,13 @@ hr {
     font-family: 'Roboto Mono', monospace;
     padding: 20px;
     min-width: 30vw;
-    max-width: 600px
+    max-width: 600px;
 }
 
 a,
 a:visited {
     color: var(--sub-color);
-    font-weight: 700
+    font-weight: 700;
 }
 
 a:hover,
@@ -48,15 +48,15 @@ a:focus {
 h2 {
     /* color: var(--text-color); */
     text-decoration: bold;
-    font-size: 1.5em
+    font-size: 1.5em;
 }
 
 ul {
-    padding-left: 0
+    padding-left: 0;
 }
 
 li {
-    margin-top: 5px
+    margin-top: 5px;
 }
 
 .socials {
@@ -99,7 +99,7 @@ li {
 }
 
 ::-webkit-scrollbar {
-    width: 5px
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -107,5 +107,5 @@ li {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--main-color)
+    background: var(--main-color);
 }
