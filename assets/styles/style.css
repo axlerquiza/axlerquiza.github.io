@@ -59,9 +59,13 @@ li {
     margin-top: 5px;
 }
 
+.bax {
+    width: 100%;
+    max-width: 50%; 
+}
+
 .bax img {
     width: 100%;
-    max-width: 50%;
     height: auto;
 }
 
