@@ -94,6 +94,10 @@ li {
     filter: brightness(0) saturate(100%) invert(37%) sepia(24%) saturate(261%) hue-rotate(165deg) brightness(90%) contrast(85%);
 }
 
+.socials a[href*="credly"] img {
+    filter: none; /* Reset filter for Credly icon */
+}
+
 .socials a:hover,
 .socials a:focus {
     color: var(--text-color);
@@ -102,6 +106,11 @@ li {
 .socials a:hover img {
     transform: scale(1.1);
     filter: brightness(0) saturate(100%) invert(20%) sepia(5%) saturate(150%) hue-rotate(180deg) brightness(100%) contrast(90%);
+}
+
+.socials a[href*="credly"]:hover img {
+    transform: scale(1.1); /* Keep the scaling effect */
+    filter: none; /* Ensure no filter is applied on hover */
 }
 
 ::selection {
